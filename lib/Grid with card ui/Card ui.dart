@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MaterialApp(
+  runApp(MaterialApp(debugShowCheckedModeBanner: false,
     home: Grid_with_builder(),
   ));
 }
@@ -62,26 +62,19 @@ class Grid_with_builder extends StatelessWidget {
               crossAxisSpacing: 5),
           itemCount: 12,
           itemBuilder: (context, index) {
-            return Container(
-                margin: const EdgeInsets.all(4),
-                height: 50,
-                decoration: BoxDecoration(
-                    boxShadow: [
-                      BoxShadow(
-                          color: Colors.grey.withOpacity(0.5),
-                          spreadRadius: 5,
-                          blurRadius: 7,
-                          offset: const Offset(0, 3))
-                    ],
-                    borderRadius: BorderRadius.circular(20),
-                    color: colors[index]),
+            return Card(
+               elevation: 5,
+                color: colors[index],
+                margin: EdgeInsets.all(7),
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
+
+                    icons[index],
                     Text(text[index],
                         style: const TextStyle(
                             fontSize: 20, fontWeight: FontWeight.bold)),
-                    icons[index],
                   ],
                 ));
           }),
