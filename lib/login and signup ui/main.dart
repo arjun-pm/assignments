@@ -1,4 +1,5 @@
 import 'package:assignments/Grid%20with%20card%20ui/Card%20ui.dart';
+import 'package:assignments/Profile%20ui%20using%20stack/Profile%20stack%20ui.dart';
 import 'package:assignments/login%20and%20signup%20ui/loginPage.dart';
 import 'package:assignments/login%20and%20signup%20ui/sign%20up%20page.dart';
 
@@ -40,7 +41,7 @@ class MainScreen extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child:  ElevatedButton(
                 onPressed: () {  Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => LoginPage()));},
+                    MaterialPageRoute(builder: (context) => Grid_with_stackk()));},
                 style: ElevatedButton.styleFrom(
                   padding: const EdgeInsets.symmetric(horizontal: 90.0, vertical: 15.0),
                   primary: Colors.blue,
