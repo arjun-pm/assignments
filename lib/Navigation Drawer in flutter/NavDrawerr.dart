@@ -78,7 +78,7 @@ class Nav_Drawer extends StatelessWidget {
                   Custom_Row(
                       icons: Icons.library_add_outlined, names: "Library"),
                   const SizedBox(
-                    height: 120,
+                    height:  120,
                   ),
                   Container(
                       child: Padding(
