@@ -10,7 +10,6 @@ class Status extends StatelessWidget {
           onPressed: () {},
           child: Icon(Icons.camera_alt),
           backgroundColor: Colors.green[400]),
-
       body: ListView(
         children: [
           ListTile(
