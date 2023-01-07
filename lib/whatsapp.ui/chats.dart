@@ -45,6 +45,7 @@ class WhatsApp_Chats extends StatelessWidget {
                   backgroundImage: NetworkImage(
                       "https://netflixjunkie.com/wp-content/uploads/2022/06/tommy-shelby-cillian-murphy-peaky-blinders-1569234705-1140x599.jpg")),
               trailing: Text("Yesterday")),
+
           ListTile(
               title: Text("Milliee"),
               subtitle: Text("Hai"),
@@ -57,6 +58,7 @@ class WhatsApp_Chats extends StatelessWidget {
               leading: CircleAvatar(
                   backgroundImage: AssetImage("assets/images/lal.jpg")),
               trailing: Text("Yesterday")),
+
           ListTile(
               title: Text("Mammookka"),
               subtitle: Text("ahh mone ok"),
