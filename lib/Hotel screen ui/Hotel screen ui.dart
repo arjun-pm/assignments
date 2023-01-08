@@ -112,22 +112,22 @@ class Hotel_screen extends StatelessWidget {
                     Icon(
                       Icons.star,
                       color: Colors.purple,
-                      size:25,
+                      size: 25,
                     ),
                     Icon(
                       Icons.star,
                       color: Colors.purple,
-                      size:25,
+                      size: 25,
                     ),
                     Icon(
                       Icons.star,
                       color: Colors.purple,
-                      size:25,
+                      size: 25,
                     ),
                     Icon(
                       Icons.star_half,
                       color: Colors.purple,
-                      size:25,
+                      size: 25,
                     ),
                     Spacer(),
                     Padding(
@@ -163,7 +163,8 @@ class Hotel_screen extends StatelessWidget {
                 ),
                 Column(
                   children: [
-                    Container(height: 45,
+                    Container(
+                      height: 45,
                       width: 280,
                       margin: EdgeInsets.all(10),
                       decoration: BoxDecoration(
@@ -188,16 +189,21 @@ class Hotel_screen extends StatelessWidget {
                           style: TextStyle(
                               fontWeight: FontWeight.bold,
                               color: Colors.black,
-                              fontSize: 20),
+                              fontSize: 22),
                         ),
                       ),
                     ),
                     const Padding(
                       padding: EdgeInsets.only(left: 8.0, right: 8.0),
-                      child: Text("Welcome to our stunning corner of the valley! Surrounded by both mountain views and a golf course, it doesn’t get more picturesque than this. We offer  spaces that combine convenience & comfort, allowing for a perfect base from which to enjoy all that this incredible valley has to offer. At Boschenmeer House, you’ll be met with spaces that hold both a tranquility and an air of exciting potential. You’ll see not only style, but true home comfort. Light fills this entire space, only adding to the positive energy and slick design choices.",style: TextStyle(fontSize: 20,color: Colors.grey)),
+                      child: Text(
+                          "Welcome to our stunning corner of the valley!Surrounded by both mountain views and a golf course,it doesn’t get more picturesque than this."
+                          " We offer  spaces that combine convenience & comfort, allowing for a perfect base from which to enjoy all that this incredible valley has to offer."
+                          " At Boschenmeer House, you’ll be met with spaces that hold both a tranquility and an air of exciting potential."
+                          " You’ll see not only style, but true home comfort. Light fills this entire space, only adding to the positive energy and slick design choices.",
+                          style: TextStyle(fontSize: 19, color: Colors.grey),
+                          textAlign: TextAlign.justify),
                     ),
                   ],
-
                 ),
               ],
             ),
