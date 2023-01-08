@@ -172,7 +172,7 @@ class Hotel_screen extends StatelessWidget {
                       ),
                       child: ElevatedButton(
                         onPressed: () {},
-                        child: const Text("Book Now"),
+                        child: Text("Book Now"),
                         style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.purple,
                           elevation: 5,
