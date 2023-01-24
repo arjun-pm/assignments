@@ -47,7 +47,7 @@ class _LoginPageState extends State {
                 )),
           ),
         ),
-        SizedBox(height: 60,),
+        const SizedBox(height: 60,),
         Padding(
           padding: const EdgeInsets.all(20.0),
           child: ElevatedButton(
