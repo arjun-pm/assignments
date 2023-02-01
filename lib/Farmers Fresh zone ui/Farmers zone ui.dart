@@ -296,8 +296,8 @@ class CustomGridClass extends StatelessWidget {
               ClipRRect(
                   borderRadius: const BorderRadius.only(
                       topRight: Radius.circular(10),
-                      topLeft: Radius.circular(10)),
-                  child: Image(image: AssetImage(Images[index]))),
+                      topLeft: Radius.circular(10),),
+                  child: Image(image: AssetImage(Images[index]),),),
               Positioned(
                 bottom: 11,
                 left: 10,
