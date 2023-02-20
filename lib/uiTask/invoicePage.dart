@@ -3,8 +3,9 @@ import 'package:flutter/material.dart';
 import 'datepage.dart';
 
 void main() {
-  runApp(MaterialApp(
+  runApp(const MaterialApp(
     home: InvoicePage(),
+    debugShowCheckedModeBanner: false,
   ));
 }
 
@@ -98,7 +99,6 @@ class _InvoicePageState extends State<InvoicePage> {
                               color: Colors.black,
                               size: 18,
                             ),
-
                             Text(
                               "Back",
                               style: TextStyle(color: Colors.black),
@@ -112,7 +112,10 @@ class _InvoicePageState extends State<InvoicePage> {
                     width: 150,
                     child: ElevatedButton(
                         onPressed: () {
-                          Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>const DatePage()));
+                          Navigator.pushReplacement(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => const DatePage()));
                         },
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
