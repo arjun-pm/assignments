@@ -35,6 +35,7 @@ class _Login_SignupState extends State<Login_Signup> {
             Image.network(
                 'https://imgs.bharatmatrimony.com/bmimgs/login/login-otp-banner.png'),
             Padding(
+
               padding: const EdgeInsets.only(top: 50.0),
               child: ElevatedButton(
                   style: ButtonStyle(
